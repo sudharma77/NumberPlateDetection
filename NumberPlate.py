@@ -3,7 +3,7 @@ frameWidth = 840
 frameHieght = 480
 cap = cv2.VideoCapture(1)
 
-nPlatesCascade = cv2.CascadeClassifier("Face/Number_Plate.xml")
+nPlatesCascade = cv2.CascadeClassifier("Number_Plate.xml")
 cap.set(3,frameWidth)
 cap.set(4 , frameHieght)
 cap.set(10,150)
